@@ -1,0 +1,52 @@
+#largeImg {
+    width: 60%;
+    height: 500px;
+    margin-left: 20%;
+    object-fit: cover;
+}
+
+.small {
+    object-fit: cover;
+}
+
+#thumb1, #thumb2, #thumb3 {
+    margin-right: .5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url('bee backgound.jpg');
+    background-size: cover;
+}
+
+#part2 {
+    background-color: black;
+    color: white;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+
+#pageSeparationForCSS {
+    background-color: beige;
+    margin-bottom: 1%;
+    margin-top: 2.1%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-bottom: 8.5%;
+    padding-top: 1%;
+    
+}
+
+#thumbnails {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#thumbnails img {
+    width: 24.625%;
+    height: 100px;
+    float: left;
+}

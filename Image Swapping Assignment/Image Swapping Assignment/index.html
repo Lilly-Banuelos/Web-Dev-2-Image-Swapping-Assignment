@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Swapping</title>
+    <!--
+        Name: Lilly Jarvis (Banuelos)
+        Date: 02/08/23
+        Class: CIS 131 101
+        Program Purpose: This displays a set of 4 images and switches the large thumbnail out depending on the one clicked.
+    -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="pageSeparationForCSS">
+        <div id="part2">
+            <h1>Bumbling Bees</h1>
+        </div>
+
+        <div id="largeImgDiv">
+            <br>
+            <!-- This is the single large image that will display different images based on the thumbnail clicked -->
+            <img src="funny bee 1.gif" alt="" id="largeImg">
+        </div>
+        <!-- These are the thumbnail images -->
+        <div id="thumbnails">
+            <img class="small" id="thumb1" src="funny bee 1.gif" alt="" onclick="clickedImg(this)">
+            <img class="small" id="thumb2" src="funny bee 2.gif" alt="" onclick="clickedImg(this)">
+            <img class="small" id="thumb3" src="funny bee 3.gif" alt="" onclick="clickedImg(this)">
+            <img class="small" id="thumb4" src="funny bee 4.gif" alt="" onclick="clickedImg(this)">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
